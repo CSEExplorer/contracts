@@ -1,4 +1,4 @@
-package com.aditya.contracts.events;
+package com.aditya.contracts.catalog.event;
 
 
 import lombok.*;
