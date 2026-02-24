@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.aditya</groupId>
 	<artifactId>contracts</artifactId>
-	<version>1.5.0</version>
+	<version>1.6.0</version>
 	<name>contracts</name>
 	<description>This is the Event contract for the Events across micorservices</description>
 	<url/>
