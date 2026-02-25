@@ -3,6 +3,8 @@ package com.aditya.contracts.catalog;
 
 
 import lombok.*;
+
+import java.util.Set;
 import java.util.UUID;
 
 @Getter
@@ -15,5 +17,18 @@ public class RestaurantCreatedEvent {
     private String name;
     private String description;
     private String status;
-    private String cuisineTypes;
+
+    // ✅ Updated
+    private Set<String> cuisines;
+
+    // ✅ UI Essentials
+    private Double rating;
+    private Integer deliveryTimeMinutes;
+    private Integer costForTwo;
+    private String priceRange;
+
+    private Boolean pureVeg;
+
+    private String city;
+    private String locality;
 }

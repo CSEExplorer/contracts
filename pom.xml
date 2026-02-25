@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.aditya</groupId>
 	<artifactId>contracts</artifactId>
-	<version>1.6.0</version>
+	<version>1.7.0</version>
 	<name>contracts</name>
 	<description>This is the Event contract for the Events across micorservices</description>
 	<url/>
@@ -44,7 +44,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/CSEExplorer/contracts</url>
+            <url>https://maven.pkg.github.com/food-delivery-system/contracts</url>
         </repository>
     </distributionManagement>
 
