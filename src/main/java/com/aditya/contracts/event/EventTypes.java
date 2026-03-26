@@ -25,7 +25,7 @@ public final class EventTypes {
 
     public static final String ORDER_CONFIRMED = "OrderConfirmed";
     public static final String ORDER_FAILED = "OrderFailed";
-    private static  final String PAYMENT_INITIATED  = "PaymentInitiated";
+    public  static  final String PAYMENT_INITIATED  = "PaymentInitiated";
     public static final String PAYMENT_COMPLETED = "PaymentCompleted";
     public static final String PAYMENT_FAILED = "PaymentFailed";
 
