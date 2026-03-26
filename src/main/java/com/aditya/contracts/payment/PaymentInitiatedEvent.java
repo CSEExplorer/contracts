@@ -10,9 +10,9 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class PaymentCompletedEvent {
+public class PaymentInitiatedEvent {
 
-    private UUID paymentId;          // 🔥 MUST
+    private UUID paymentId;          // 🔥 aggregateId reference
     private UUID orderId;
     private UUID userId;
 
@@ -20,5 +20,5 @@ public class PaymentCompletedEvent {
     private String currency;
 
     // Gateway info
-    private String gatewayPaymentId; // razorpay_payment_id
+    private String gatewayOrderId;   // razorpay_order_id
 }

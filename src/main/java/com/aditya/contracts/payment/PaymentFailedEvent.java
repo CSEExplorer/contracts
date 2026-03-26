@@ -1,6 +1,7 @@
 package com.aditya.contracts.payment;
 
 import lombok.*;
+
 import java.math.BigDecimal;
 import java.util.UUID;
 
@@ -11,12 +12,12 @@ import java.util.UUID;
 @Builder
 public class PaymentFailedEvent {
 
-    private UUID paymentId;
+    private UUID paymentId;          // 🔥 MUST
     private UUID orderId;
     private UUID userId;
 
     private BigDecimal amount;
-    private String status; // FAILED
+    private String currency;
 
-    private String reason; // failure reason
+    private String reason;           // failure reason
 }
